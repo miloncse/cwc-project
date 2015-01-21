@@ -24,18 +24,5 @@
                 </div><!--/sign up form-->
             </div>
 </section>
-<script>
-$(document).ready(function(){
-    $("#password_confirm").blur(function(){
-        var  password =$("#password").val();
-        var  password_confirm =$("#password_confirm").val();
-        if(password !=password_confirm){
-            $("#password_confirm").val("");
-            $("#message").html("password does not match")
-        }else{
-          $("#message").html("")  
-        }
-    })     
-})
-
-</script>
+    
+    
